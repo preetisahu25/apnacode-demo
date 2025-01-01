@@ -1,0 +1,26 @@
+package com.company;
+import java.util.Scanner;
+
+public class cwp_11_ex1_solution {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter physics marks:");
+        int physics = scan.nextInt();
+        System.out.println("enter english marks:");
+        int english = scan.nextInt();
+        System.out.println("enter chemistry marks:");
+        int chemistry = scan.nextInt();
+        System.out.println("enter math marks:");
+        int math = scan.nextInt ();
+        System.out.println("enter your computer marks:");
+        int computer = scan.nextInt();
+
+        float percentage =( (physics + english + chemistry + math + computer)/500.0f)*100 ;
+
+        System.out.println("percentage: ");
+        System.out.println(percentage);
+
+    }
+}
