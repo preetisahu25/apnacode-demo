@@ -1,0 +1,13 @@
+package com.company;
+
+public class cwp_13_strings {
+    public static void main(String[] args) {
+       //String name = new String("preeti");
+       // String name = "preeti";
+      //  System.out.print("the name is:");
+        int a = 6;
+        float b = 5.6454f;
+        System.out.printf("the value of a is %d and value of b is %f",a,b);
+      //  System.out.println(name);
+    }
+}
