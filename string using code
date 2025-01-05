@@ -1,0 +1,10 @@
+package com.company;
+
+public class cwp_13_strings {
+    public static void main(String[] args) {
+       //String name = new String("preeti");
+        String name = "preeti";
+        System.out.print("the name is:");
+        System.out.println(name);
+    }
+}
