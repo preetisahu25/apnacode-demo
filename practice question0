@@ -1,0 +1,11 @@
+package com.company;
+
+public class cwp_09_ch2_op_pre {
+    public static void main(String[] args) {
+ //       int b = 6*5-34/2;
+        int a = 60 / 5 - 34 * 2;
+        System.out.println(a);
+
+    }
+}
+
