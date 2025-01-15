@@ -1,0 +1,13 @@
+package com.company;
+
+public class cwp_14_string_method {
+    public static void main(String[] args) {
+
+        String nonTrimmedString = "  Preeti  ";
+        System.out.println(nonTrimmedString);
+        String trimmedString = nonTrimmedString.trim();
+        System.out.println(nonTrimmedString.trim());
+
+
+    }
+}
